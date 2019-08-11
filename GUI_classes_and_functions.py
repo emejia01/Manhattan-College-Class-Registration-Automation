@@ -78,3 +78,4 @@ class CRN:
         # Creates the entry box and label for CRN 4
         self.crn4_entry_box = Entry(master)
         self.crn4_entry_label = Label(master, text='CRN 4', bg='#778899')
+
