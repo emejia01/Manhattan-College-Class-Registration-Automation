@@ -1,10 +1,10 @@
-'''
+"""
 This file contains the code for the Tkinter classes and functions that will be used
 in the GUI of the program. They will create the various labels, entry fields, and buttons
 that will be present in the program.
 
 Created by: Erik Mejia
-'''
+"""
 
 # Tkinter will be used to create the GUI
 from tkinter import *
@@ -28,6 +28,7 @@ class EntryFields:
         # Create ChromeDriver path entry field and label
         self.file_path_entry_field = Entry(master)
         self.file_path_entry_label = Label(master, text='ChromeDriver FilePath:', bg='#778899')
+        self.file_path_entry_label.grid(row=12, sticky='W', padx=205)
 
         # Creates Status Label
         self.status_label = Label(master, text='', bg='#336e7b')
@@ -66,16 +67,20 @@ class CRN:
         # Creates the entry box and label for CRN 1
         self.crn1_entry_box = Entry(master)
         self.crn1_entry_label = Label(master, text='CRN 1', bg='#778899')
+        self.crn1_entry_label.grid(row=5, sticky='W', padx=315)
 
         # Creates the entry box and label for CRN 2
         self.crn2_entry_box = Entry(master)
         self.crn2_entry_label = Label(master, text='CRN 2', bg='#778899')
+        self.crn2_entry_label.grid(row=6, sticky='W', padx=315)
 
         # Creates the entry box and label for CRN 3
         self.crn3_entry_box = Entry(master)
         self.crn3_entry_label = Label(master, text='CRN 3', bg='#778899')
+        self.crn3_entry_label.grid(row=7, sticky='W', padx=315)
 
         # Creates the entry box and label for CRN 4
         self.crn4_entry_box = Entry(master)
         self.crn4_entry_label = Label(master, text='CRN 4', bg='#778899')
+        self.crn4_entry_label.grid(row=8, sticky='W', padx=315)
 
