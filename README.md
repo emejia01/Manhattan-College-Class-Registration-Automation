@@ -42,7 +42,7 @@ The program uses the Selenium package alongside a ChromeDriver to interact with 
 
 Use Chrome when downloading the AutoReg program for your Mac computer. When downloading the zip file, the Chrome browser will give you a warning before saving the file on your computer (The warning is there because AutoReg is a raw executable program). Select the **'Keep'** option to save the program on your computer.
 
-<img src= "/README Photos/Mac/Screen Shot 2019-08-13 at 6.04.26 PM.png" width = 260>
+<img src= "/README Photos/Mac/Screen Shot 2019-08-13 at 6.04.26 PM.png" width = 320>
 
 Once the zip file is downloaded, proceed to unzip the file. Once unzipped, the program executable file should be displayed on your computer. 
 
@@ -51,15 +51,15 @@ To run the program right-click on the executable file and select the **'Open'** 
 
 After the AutoReg program is open, you will need to enter your Manhattan College credentials as well as the CRN numbers for the classes you want to register for. You will also need to enter the filepath for the ChromeDriver that was downloaded. To do this right-click on the unzipped ChromeDriver executable file and press and hold the **"Option"** key on the Mac keyboard. Click on the '**Copy 'chromedriver' as Pathname**' option. You can then proceed to open the AutoReg file. When open, paste the pathname into the 'Pathname' entry field. Paste using **COMMAND + V**.
 
-<img src= "/README Photos/Mac/Screen Shot 2019-08-13 at 5.43.59 PM.png" width = 260>
-<img src= "/README Photos/Mac/Screen Shot 2019-08-13 at 5.47.30 PM.png" width = 280>
+<img src= "/README Photos/Mac/Screen Shot 2019-08-13 at 5.43.59 PM.png" width = 320>
+<img src= "/README Photos/Mac/Screen Shot 2019-08-13 at 5.47.30 PM.png" width = 480>
 
 **FOR WINDOWS**
 
 
 Use Chrome when downloading the AutoReg program for your WINDOWS computer. After you download the zip file, proceed to unzip the file. After the file is unzipped, you can proceed to run the AutoReg executable file. Before the program begins to run, Windows Smart Defender might pop-up with a warning. To bypass this warning just click the **"More info"** button and proceed to click on **"Run Anyways"**. The AutoReg program should then open.
 
-<img src= "/README Photos/Windows/Capture04.PNG" width = 280>
+<img src= "/README Photos/Windows/Capture04.PNG" width = 320>
 
 After the AutoReg program is open, you will need to enter your Manhattan College credentials as well as the CRN numbers for the classes you want to register for. You will also need to enter the filepath for the ChromeDriver that was downloaded. To do this select and right-click the unzipped ChromeDriver executable file. Select the **"Properties"** option from the drop-down menu. Once selected, a new window should pop-up with the file properties. Navigate to the **"Security"** tab in the window. There you can copy the filepath from the **Object Name** field. Copy and paste it into the FilePath entry field in the AutoReg program. Paste using **CTRL + V**.
 
